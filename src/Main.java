@@ -12,8 +12,8 @@ public class Main {
             arr[i] = sc.nextInt();
         }
 
-        MergeSort mS = new MergeSort();
-        mS.mergeSort(arr, 0, n-1);
+        QuickSort mS = new QuickSort();
+        mS.quickSort(arr, 0, n-1);
 
 //        InsertionSort s = new InsertionSort();
 //        s.sort(arr, n);
